@@ -6,16 +6,16 @@
 ## 📱 앱 스크린샷
 
 ### 로그인 화면
-![로그인 화면](images/로그인%20화면.png)
+<img src="images/로그인%20화면.png" alt="로그인 화면" width="270" height="600">
 
 ### 수강중인 강의 화면
-![수강중인 강의 화면](images/수강중인%20강의%20화면.png)
+<img src="images/수강중인%20강의%20화면.png" alt="수강중인 강의 화면" width="270" height="600">
 
 ### 출석 화면
-![출석 화면](images/출석%20화면.png)
+<img src="images/출석%20화면.png" alt="출석 화면" width="270" height="600">
 
 ### 출석 화면 (수업중)
-![출석 화면_수업중](images/출석%20화면%20수음중.png)
+<img src="images/출석%20화면%20수음중.png" alt="출석 화면 (수업중)" width="270" height="600">
 
 ## 기술 스택
 - **Backend**: Spring Boot 3.2.3
