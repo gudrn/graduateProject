@@ -9,25 +9,28 @@
   <b>앱 주요 화면</b>
 </p>
 
-<p align="center">
-  <img src="images/로그인%20화면.png" alt="로그인 화면" width="270" height="600"><br>
-  <b>로그인 화면</b>
-</p>
-
-<p align="center">
-  <img src="images/수강중인%20강의%20화면.png" alt="수강중인 강의 화면" width="270" height="600"><br>
-  <b>수강중인 강의 화면</b>
-</p>
-
-<p align="center">
-  <img src="images/출석%20화면.png" alt="출석 화면" width="270" height="600"><br>
-  <b>출석 화면</b>
-</p>
-
-<p align="center">
-  <img src="images/출석%20화면%20수음중.png" alt="출석 화면 (수업중)" width="270" height="600"><br>
-  <b>출석 화면 (수업중)</b>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="images/로그인%20화면.png" alt="로그인 화면" width="180" height="400"><br>
+      <b>로그인 화면</b>
+    </td>
+    <td align="center">
+      <img src="images/수강중인%20강의%20화면.png" alt="수강중인 강의 화면" width="180" height="400"><br>
+      <b>수강중인 강의 화면</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/출석%20화면.png" alt="출석 화면" width="180" height="400"><br>
+      <b>출석 화면</b>
+    </td>
+    <td align="center">
+      <img src="images/출석%20화면%20수음중.png" alt="출석 화면 (수업중)" width="180" height="400"><br>
+      <b>출석 화면 (수업중)</b>
+    </td>
+  </tr>
+</table>
 
 ## 기술 스택
 - **Backend**: Spring Boot 3.2.3
