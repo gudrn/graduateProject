@@ -38,7 +38,6 @@
 - **Database**: MySQL
 - **ORM**: MyBatis
 - **Build Tool**: Maven
-- **Server Port**: 5000
 
 ## 주요 기능
 
@@ -81,20 +80,6 @@ TeamProjectServer/
 └── pom.xml                      # Maven 의존성 관리
 ```
 
-## 데이터베이스 설정
-
-### MySQL 연결 정보
-- **URL**: jdbc:mysql://127.0.0.1:3306/attenddb
-- **Username**: root1
-- **Password**: 1234
-- **Port**: 5000
-
-### 서버 설정
-- 최대 스레드: 16
-- 최소 스레드: 2
-- 최대 연결: 8192
-- 연결 타임아웃: 20초
-
 ## API 엔드포인트
 
 ### 교수 API (`/professor`)
@@ -107,29 +92,6 @@ TeamProjectServer/
 - `GET /student/login` - 학생 로그인
 - `GET /student/attendlist` - 학생 수강 강의 목록
 - `POST /student/attend` - 출석 체크
-
-## 핵심 모델
-
-### Student (학생)
-- `studentId`: 학생 ID
-- `name`: 학생 이름
-
-### Professor (교수)
-- `id`: 교수 ID
-- `name`: 교수 이름
-- `department`: 소속 학과
-
-### Lecture (강의)
-- `lectureCode`: 강의 코드
-- `lectureName`: 강의명
-- `professorId`: 담당 교수 ID
-- `startTime`: 강의 시작 시간
-- `endTime`: 강의 종료 시간
-
-### Attendance (출석)
-- `studentId`: 학생 ID
-- `lectureCode`: 강의 코드
-- `attendance`: 출석 여부 (Boolean)
 
 ## 출석 체크 프로세스
 
@@ -177,14 +139,5 @@ mvn clean package
 - `attendance` - 출석 정보
 - `random_key` - 랜덤 키 정보
 
-## 라이선스
-이 프로젝트는 교육 목적으로 개발되었습니다.
-
-## 기여 방법
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
